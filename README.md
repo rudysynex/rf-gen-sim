@@ -5,6 +5,9 @@ Bloch simulation programs for RF pulse analysis, including programs
 for generating shaped RF pulses
 Author: Rudraksha Dutta Majumdar, 2021
 
+Many of these functions are Python versions of Robin de Graaf's Matlab tool 'PulseWizard' (except the SLR pulses).
+The SLR tool uses parts of the '[sigpy.mri.rf](https://sigpy.readthedocs.io/en/latest/mri_rf.html#module-sigpy.mri.rf)' modules.
+
 The 'Bloch_simulator.ipynb' contains the main
 simulation program to simulate the following:
 1. Magnetization VS RF amplitude
@@ -36,6 +39,7 @@ These pulse functions are designed to generate amplitude, frequency,
 and phase tables as Numpy arrays.
 
 **SLR PULSES**
+
 The 'slr_pulses.py' program is a standalone script to both generate and simulate 
 Shinnar - Le Roux optimized pulses, including options for root-flipping and multibanding.
 Do not use the SLR pulses with the 'Bloch_simulator.ipynb' notebook
