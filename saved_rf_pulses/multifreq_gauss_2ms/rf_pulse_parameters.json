@@ -1,0 +1,17 @@
+{
+    "BASE_RF_FILE": "C:/Users/RudrakshaMajumdar/Documents/GitHub/rf-bloch-simulator/saved_rf_pulses/gaussian1_2ms/rf_pulse_file.npz",
+    "PULSE_LENGTH": 2000,
+    "NR_OF_POINTS": 256,
+    "TIME_REVERSAL": "on",
+    "BLOCH_SIEGERT_COMP": "off",
+    "FREQ_1": 1000,
+    "FREQ_2": -1000,
+    "PHS_1": 0,
+    "PHS_2": 0,
+    "RF_AMPLITUDE": 1000,
+    "SAVE_PULSE": true,
+    "BASE_PATH": "C:/Users/RudrakshaMajumdar/Documents/GitHub/rf-bloch-simulator/saved_rf_pulses",
+    "NAME_PULSE": "multifreq_gauss_2ms",
+    "SAVE_PATH": "C:/Users/RudrakshaMajumdar/Documents/GitHub/rf-bloch-simulator/saved_rf_pulses\\multifreq_gauss_2ms",
+    "file_name": "C:/Users/RudrakshaMajumdar/Documents/GitHub/rf-bloch-simulator/saved_rf_pulses\\multifreq_gauss_2ms\\rf_pulse_file"
+}

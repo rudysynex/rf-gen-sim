@@ -1,0 +1,14 @@
+{
+    "PULSE_LENGTH": 5000,
+    "NR_OF_POINTS": 256,
+    "PULSE_FUNCTION": "HSn",
+    "HYPSEC_ORDER": 4,
+    "SWEEP_BW": 4000,
+    "FREQ_OFFSET": 0,
+    "INIT_PHASE": 0,
+    "SAVE_PULSE": true,
+    "BASE_PATH": "C:/Users/RudrakshaMajumdar/Documents/GitHub/rf-bloch-simulator/saved_rf_pulses",
+    "NAME_PULSE": "HS4_5ms_4kHz",
+    "SAVE_PATH": "C:/Users/RudrakshaMajumdar/Documents/GitHub/rf-bloch-simulator/saved_rf_pulses\\HS4_5ms_4kHz",
+    "file_name": "C:/Users/RudrakshaMajumdar/Documents/GitHub/rf-bloch-simulator/saved_rf_pulses\\HS4_5ms_4kHz\\rf_pulse_file"
+}

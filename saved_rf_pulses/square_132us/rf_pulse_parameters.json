@@ -1,0 +1,15 @@
+{
+    "PULSE_LENGTH": 132,
+    "NR_OF_POINTS": 256,
+    "PULSE_FUNCTION": "square",
+    "SINC_LOBES": 3,
+    "GAUSSIAN_TRUNCATION": 1,
+    "HERMITE_NUT_ANGLE": 90,
+    "FREQ_OFFSET": 0,
+    "INIT_PHASE": 0,
+    "SAVE_PULSE": true,
+    "BASE_PATH": "C:/Users/RudrakshaMajumdar/Documents/GitHub/rf-bloch-simulator/saved_rf_pulses",
+    "NAME_PULSE": "square_132us",
+    "SAVE_PATH": "C:/Users/RudrakshaMajumdar/Documents/GitHub/rf-bloch-simulator/saved_rf_pulses\\square_132us",
+    "file_name": "C:/Users/RudrakshaMajumdar/Documents/GitHub/rf-bloch-simulator/saved_rf_pulses\\square_132us\\rf_pulse_file"
+}
