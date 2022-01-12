@@ -12,7 +12,6 @@ import matplotlib.pyplot as plt
 
 PULSE_LENGTH = 5000 #us
 NR_OF_POINTS = 256
-PULSE_FUNCTION = "HSn"  # "HSn" OR "tanh/tan"
 SMOOTHING_PC = 10 # % smoothing of the edges
 SWEEP_BW = 4000
 SWEEP_DIRECTION = "descend" # descend, ascend
