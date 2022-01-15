@@ -15,13 +15,13 @@ import sigpy.mri.rf as rf
 
 # SLR pulse parameters
 N = 256  # Number of time points
-TBW = 4  # time-bandwidth product
+TBW = 9.62  # time-bandwidth product
 PULSE_LEN = 1  #ms
 PULSE_BW = TBW/PULSE_LEN #kHz
 PBR = 0.01  # pass-band ripple
 SBR = 0.01  # stop-band ripple
-PULSE_TYPE = "se" # inv, se, ex, sat, st (small-tip)
-FILTER_TYPE = "ls" # 'pm', 'ls', 'ms', 'min', 'max'
+PULSE_TYPE = "ex" # inv, se, ex, sat, st (small-tip)
+FILTER_TYPE = "min" # 'pm', 'ls', 'ms', 'min', 'max'
 
 # Root-flipped pulse parameters
 ROOT_FLIP = False
@@ -33,7 +33,7 @@ else:
     ROOT_FLIP_ANGLE = 180
 
 # Multiband pulse parameters
-MULTI_BAND = True
+MULTI_BAND = False
 N_BANDS = 2
 PHS_TYPE = 'quad_mod' # for n_bands >= 3 only: phs_mod, amp_mod, 
                         # for all n_bands: quad_mod, or 'None'
